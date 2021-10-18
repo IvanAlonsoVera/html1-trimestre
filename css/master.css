@@ -1,0 +1,70 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #71D617;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 190px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #57763B;
+}
+#cuerpo {
+  background: #B7FF77;
+}
+#banner{
+  background-color: grey;
+  width: 1850px;
+  height: 150px;
+  margin: 25px;
+}
+#menu{
+  margin: 25px;
+  width: 1850px;
+}
+#area_productos{
+  margin: 25px;
+  margin-top: 0px;
+  float: left;
+}
+#pie{
+  height: 300px;
+  width: 1850px;
+  background: #57763B;
+  margin-bottom:0px;
+  margin-top:25px;
+  clear: both;
+  margin-left: 25px;
+}
+#publicidad{
+  float: left;
+  left: 25px;
+  width: 200px;
+  height: 900px;
+  margin-bottom:25px;
+  margin-top: 25px;
+  margin-right:25px;
+}
+p {
+  font-family: 'Comfortaa';
+  font-size: 11px;
+}
+h1 {
+  font-family: 'Pacifico';
+  font-size: 18px;
+}
+.producto {
+  margin: 25px;
+}
