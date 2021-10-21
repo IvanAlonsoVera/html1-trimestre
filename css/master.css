@@ -1,43 +1,36 @@
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #71D617;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 190px;
-  text-decoration: none;
-}
-li a:hover {
-  background-color: #57763B;
-}
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 #cuerpo {
-  background: #B7FF77;
-}
-#banner{
-  background-color: grey;
-  width: 1850px;
-  height: 150px;
-  margin: 25px;
-}
-#menu{
-  margin: 25px;
-  width: 1850px;
+  background-image: url("../imagenes/fondoselector.jpg");
 }
 #area_productos{
-  margin: 25px;
-  margin-top: 0px;
   float: left;
+  width: 1200px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.vermas{
+  opacity: 100%;
+  position:absolute;
+  height: 300px;
+  width: 300px;
+}
+.vermas h1{
+  opacity: 0%;
+}
+.vermas:hover h1 {
+  font-size: 40px;
+  position:absolute;
+  color: black;
+  left: 95px;
+  top: 95px;
+  opacity: 50%;
+}
+.vermas:hover{
+  position:absolute;
+  opacity: 50%;
+  float: left;
+  background-color: white;
 }
 #pie{
   height: 300px;
@@ -46,28 +39,40 @@ li a:hover {
   margin-bottom:0px;
   margin-top:25px;
   clear: both;
-  margin-left: 25px;
+  margin-left: 0px;
 }
 #publicidad{
   float: left;
-  left: 25px;
-  width: 200px;
-  height: 900px;
+  width: 400px;
+  height: 500px;
   margin-bottom:25px;
-  margin-top: 25px;
+  margin-left: 85px;
   margin-right:25px;
 }
 p {
   font-family: 'Comfortaa';
-  font-size: 11px;
+  font-size: 31px;
 }
 h1 {
   font-family: 'Pacifico';
   font-size: 18px;
 }
-.producto {
-  margin: 25px;
+h2 {
+  font-family: 'Pacifico';
+  font-size: 48px;
+}
+#producto{
+  width: 1200px;
+  margin-left: 25px;
+}
+#descripcion_producto{
+  margin-top: -50px;
+  width: 650px;
+  float: right;
 }
 #mapa{
   float: right;
+}
+#info{
+  float:left;
 }

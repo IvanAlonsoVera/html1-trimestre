@@ -2,37 +2,94 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="../css/master.css">
+    <link rel="stylesheet" href="../css/menu.css">
     <title>index</title>
-    <script type="text/javascript" src="js/publicidad.js"></script>
+    <script type="text/javascript" src="../js/publicidad.js"></script>
   </head>
   <body id="cuerpo" onload="publicidad()">
-    <div id="banner">
-      <img src="imagenes/banner.jpg" alt="Banner" height="150px" width="1850px">
-    </div>
     <div id="menu">
       <ul>
-        <li><div id="html/principal">
-          <a href="index.html"><h1>Principal</h1></a>
+        <li><div id="principal">
+          <a href="../index.html"><h1>Principal</h1></a>
         </div></li>
-        <li><div id="html/alquileres">
-          <a href="html/alquileres.html"><h1>Alquiler</h1></a>
+        <li><div id="alquileres">
+          <a href="alquileres.html"><h1>Alquiler</h1></a>
         </div></li>
         <li><div id="html/galeria">
           <a href="galeria.html"><h1>Galeria</h1></a>
         </div></li>
         <li><div id="html/contactanos">
-          <a href="index.html"><h1>Contacto</h1></a>
+          <a href="contacto.html"><h1>Contacto</h1></a>
         </div></li>
       </ul>
     </div>
-
-
+    <div id="area_productos">
+      <table>
+        <tr>
+          <td><a href="productos/california.html">
+            <div class="vermas"><h1>Ver más</h1></div>
+            <img src="../imagenes/california.jpg" class="producto" width="300px" height="300px">
+          </a></td>
+          </a><td><a href="html/clasic.html">
+            <div class="vermas"><h1>Ver más</h1></div>
+            <img src="../imagenes/clasic.jpg" class="producto" width="300px" height="300px"></td>
+          </a><td><a href="html/connect.html">
+            <div class="vermas"><h1>Ver más</h1></div>
+            <img src="../imagenes/connect.jpg" class="producto" width="300px" height="300px"></td>
+          </a><td><a href="html/mercedes.html">
+            <div class="vermas"><h1>Ver más</h1></div>
+              <img src="../imagenes/mercedes.jpg" class="producto" width="300px" height="300px">
+            </a></td>
+        </tr>
+        <tr>
+          <td><a href="html/custon.html">
+            <div class="vermas"><h1>Ver más</h1></div>
+            <img src="../imagenes/custom.jpg" class="producto" width="300px" height="300px"></td>
+          </a><td><a href="../html/ducato.html">
+            <div class="vermas"><h1>Ver más</h1></div>
+            <img src="../imagenes/ducato.jpg" class="producto" width="300px" height="300px"></td>
+          </a><td><a href="html/jeep.html">
+            <div class="vermas"><h1>Ver más</h1></div>
+            <img src="../imagenes/jeep.jpg" class="producto" width="300px" height="300px"></td>
+          </a><td><a href="html/suv.html">
+            <div class="vermas"><h1>Ver más</h1></div>
+            <img src="../imagenes/suv.jpg" class="producto" width="300px" height="300px">
+          </a></td>
+        </tr>
+        <tr>
+          <td><a href="html/patrol.html">
+            <div class="vermas"><h1>Ver más</h1></div>
+            <img src="../imagenes/patrol.jpg" class="producto" width="300px" height="300px"></td>
+          </a><td><a href="html/reptor.html">
+            <div class="vermas"><h1>Ver más</h1></div>
+            <img src="../imagenes/raptor.jpg" class="producto" width="300px" height="300px"></td>
+          </a><td><a href="../html/rifter.html">
+            <div class="vermas"><h1>Ver más</h1></div>
+            <img src="../imagenes/rifter.jpg" class="producto" width="300px" height="300px"></td>
+          </a><td><a href="../html/golf.html">
+            <div class="vermas"><h1>Ver más</h1></div>
+            <img src="../imagenes/golf.jpg" class="producto" width="300px" height="300px">
+          </a></td>
+        </tr>
+      </table>
+    </div>
     <div id="publicidad">
-      <img id="publicidad_img"  width="400" height="1018px">
+      <img id="publicidad_img"  width="550" height="919px">
     </div>
     <div id="pie">
-      <p></p>
+      <div id="info">
+      <div id=legal>
+        <p>copyright since 0000<br><a href="legal/infolegal.pdf">Informacion Legal</a></p><br>
+      </div>
+      <div id="contratos">
+        <h3>Conocenos</h3>
+        <a href="contrataciones">Trabaja con nosotros</a>
+        <a href="contrataciones">Sobre AlquilaCamper</a>
+        <a href="contrataciones">Compromiso y valores</a>
+      </div>
+    </div>
+      <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16238.62154085484!2d-3.603128058983176!3d40.33557476956056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd423b5276b84bc5%3A0x483c4858a47b6169!2sCarr.%20Ca%C3%B1ada%20Real%2C%2028051%20Madrid!5e0!3m2!1ses!2ses!4v1634626078850!5m2!1ses!2ses" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
   </body>
 </html>

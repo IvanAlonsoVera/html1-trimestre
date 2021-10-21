@@ -1,0 +1,30 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #71D617;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 190px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #57763B;
+}
+#cuerpo {
+  background: #B7FF77;
+}
+#menu{
+  float: left;
+  margin: 25px;
+  width: 1850px;
+}
