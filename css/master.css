@@ -39,7 +39,7 @@
   margin-bottom:0px;
   margin-top:25px;
   clear: both;
-  margin-left: 0px;
+  margin-left: 25px;
 }
 #publicidad{
   float: left;
@@ -48,6 +48,11 @@
   margin-bottom:25px;
   margin-left: 85px;
   margin-right:25px;
+}
+#publicidad2{
+  float: right;
+  width: 515px;
+  height: 500px;
 }
 p {
   font-family: 'Comfortaa';
@@ -62,12 +67,15 @@ h2 {
   font-size: 48px;
 }
 #producto{
-  width: 1200px;
+  margin-top: 125px;
+  position: absolute;
+  height: 1200px;
+  width: 1150px;
   margin-left: 25px;
 }
 #descripcion_producto{
   margin-top: -50px;
-  width: 650px;
+  width: 600px;
   float: right;
 }
 #mapa{
@@ -75,4 +83,12 @@ h2 {
 }
 #info{
   float:left;
+}
+.bloque{
+  height: 1050px;
+  width: auto;
+}
+#Galeria{
+  margin-left: 25px;
+  width: 1850px;
 }
