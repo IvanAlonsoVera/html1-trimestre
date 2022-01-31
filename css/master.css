@@ -1,14 +1,41 @@
-@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url('http://fonts.googleapis.com/css?family=Pacifico');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
-#cuerpo {
-  background-image: url("../imagenes/fondoselector.jpg");
+#cuerpo2 {
+  background-color: #B7FF77;
+}
+/*Aqui estan los divs que tienen en su interior las areas donde estan los
+alquileres(la tabla) y donde estan los productos (los diferentes productos)*/
+#area_sub{
+  float: left;
+  width: 1175px;
+  height: 950px;
+  margin-left: 20px;
+  margin-right: 50px;
 }
 #area_productos{
   float: left;
   width: 1200px;
   margin-left: 20px;
   margin-right: 20px;
+  height: 950px;
 }
+  /*La tabla que tienen los productos*/
+  #tableta tr:nth-child(even) {
+    background-color: #71D617;
+  }
+  #tableta{
+    border-collapse: collapse;
+    border:1px solid black;
+  }
+  #tableta th{
+    background: #57763B;
+    padding: 10px;
+  }
+  #tableta td{
+    padding: 15px;
+  }
+
+/*Aqui esta todo lo relacionado con alquileres para que se cambie a ver mas*/
 .vermas{
   opacity: 100%;
   position:absolute;
@@ -32,15 +59,36 @@
   float: left;
   background-color: white;
 }
-#pie{
-  height: 300px;
-  width: 1850px;
-  background: #57763B;
-  margin-bottom:0px;
-  margin-top:25px;
-  clear: both;
-  margin-left: 25px;
+/*Todo lo relacionado con el pie de pagina*/
+#mapa{
+  position: absolute;
+  float: left;
+  margin-left: 700px;
+  border-radius:10px;
+  height: 10em;
 }
+#contratos a{
+  display: block;
+}
+#contratos{
+  float: left;
+  margin-left: 25%;
+}
+#legal{
+  margin-left: 10%;
+  float: left;
+  margin-top: 2%;
+}
+#pie{
+  position: relative;
+  bottom: 0%;
+  border-radius: 1em;
+  height: 10em;
+  width: 100%;
+  background: #57763B;
+  clear: both;
+}
+/* El css de la publicidad que esta en el js*/
 #publicidad{
   float: left;
   width: 400px;
@@ -54,9 +102,16 @@
   width: 515px;
   height: 500px;
 }
+/*estilos comunes a todas las paginas*/
+img {
+  border-radius: 10px;
+}
 p {
   font-family: 'Comfortaa';
-  font-size: 31px;
+  font-size: 20px;
+}
+a{
+  color: #C2C2C2;
 }
 h1 {
   font-family: 'Pacifico';
@@ -66,29 +121,55 @@ h2 {
   font-family: 'Pacifico';
   font-size: 48px;
 }
-#producto{
-  margin-top: 125px;
-  position: absolute;
-  height: 1200px;
-  width: 1150px;
-  margin-left: 25px;
+h3 {
+  margin-bottom: 5px;
+  font-family: 'Pacifico';
+  font-size: 28px;
 }
+/*Aqui tenemos todo lo relacionado con los productos finales*/
 #descripcion_producto{
   margin-top: -50px;
   width: 600px;
   float: right;
 }
-#mapa{
-  float: right;
-}
-#info{
-  float:left;
-}
-.bloque{
-  height: 1050px;
-  width: auto;
-}
+/*Aqui esta el tema de la galeria*/
 #Galeria{
   margin-left: 25px;
   width: 1850px;
+}
+/*aqui tenemos el css para conocenos.html*/
+#conocenos label{
+  display: block;
+}
+#conocenos input{
+  display: block;
+}
+#conocenos{
+  height: 750px;
+}
+label{
+  padding-bottom: 0.5em;
+  font-family: 'Comfortaa';
+  font-size: 15px;
+  margin-top: 0.5em;
+}
+fieldset{
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: 200px;
+  width: 150px;
+  margin-left: 40%;
+  border-radius: 10px;
+  background-color: #B7FF77;
+}
+input{
+  font-family: 'Comfortaa';
+  font-size: 15px;
+  border-radius: 0.5em;
+  width: 98%;
+  margin-top: 0.5em;
+}
+#enviar{
+  background-color:#71D617;
 }

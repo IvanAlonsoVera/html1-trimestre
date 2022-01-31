@@ -1,0 +1,31 @@
+li {
+  float: none;
+}
+li a {
+    padding: 1px 40%;
+}
+body {
+  width: 100%;
+  margin: 0px;
+}
+#pie{
+  clear: both;
+  visibility: hidden;
+}
+#conocenos label{
+  display: block;
+}
+#conocenos input{
+  display: block;
+}
+#conocenos{
+  height: 80%;
+}
+label{
+  padding-bottom: 0.5em;
+}
+fieldset{
+  margin-top: 60%;
+  margin-left: 10%;
+  border-radius: 1em;
+}

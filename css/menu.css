@@ -1,4 +1,6 @@
+/*aqui esta el menu comun*/
 ul {
+  border-radius: 10px;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -19,9 +21,6 @@ li a {
 }
 li a:hover {
   background-color: #57763B;
-}
-#cuerpo {
-  background: #B7FF77;
 }
 #menu{
   float: left;

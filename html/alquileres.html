@@ -4,10 +4,12 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="../css/master.css">
     <link rel="stylesheet" href="../css/menu.css">
-    <title>index</title>
+    <title>AlquilaCamper</title>
+    <link rel="icon" type="image/x-icon" href="../imagenes/favicon.png">
     <script type="text/javascript" src="../js/publicidad.js"></script>
+    <script type="text/javascript" src="../js/producto.js"></script>
   </head>
-  <body id="cuerpo" onload="publicidad()">
+  <body id="cuerpo2" onload="publicidad()">
     <div id="menu">
       <ul>
         <li><div id="principal">
@@ -16,25 +18,24 @@
         <li><div id="alquileres">
           <a href="alquileres.html"><h1>Alquiler</h1></a>
         </div></li>
-        <li><div id="html/galeria">
+        <li><div id="galeria">
           <a href="galeria.html"><h1>Galeria</h1></a>
         </div></li>
-        <li><div id="html/contactanos">
-          <a href="contacto.html"><h1>Contacto</h1></a>
+        <li><div id="contactanos">
+          <a href="conocenos.html"><h1>Contacto</h1></a>
         </div></li>
       </ul>
     </div>
-    <div id="area_productos">
-      <table>
+    <div id="area_productos" id="producto">
+      <table id="tabla">
         <tr>
-          <td><a href="california.html">
-            <div class="vermas"><h1>Ver más</h1></div>
-            <img src="../imagenes/california.jpg" class="producto" width="300px" height="300px">
-          </a></td>
-          </a><td><a href="html/clasic.html">
+        </a><td><a href="california.html">
+          <div class="vermas"><h1>Ver más</h1></div>
+          <img src="../imagenes/california.jpg" class="producto" width="300px" height="300px"></td>
+          </a><td><a href="clasic.html">
             <div class="vermas"><h1>Ver más</h1></div>
             <img src="../imagenes/clasic.jpg" class="producto" width="300px" height="300px"></td>
-          </a><td><a href="html/connect.html">
+          </a><td><a href="connect.html">
             <div class="vermas"><h1>Ver más</h1></div>
             <img src="../imagenes/connect.jpg" class="producto" width="300px" height="300px"></td>
           </a><td><a href="html/mercedes.html">
@@ -75,21 +76,20 @@
       </table>
     </div>
     <div id="publicidad">
-      <img id="publicidad_img"  width="550" height="919px">
+      <img id="publicidad_img"  width="500" height="919px">
     </div>
     <div id="pie">
-      <div id="info">
       <div id=legal>
-        <p>copyright since 0000<br><a href="legal/infolegal.pdf">Informacion Legal</a></p><br>
+        <p>copyright since 2021<br><a href="legal/infolegal.pdf">Informacion Legal</a></p><br>
       </div>
       <div id="contratos">
-        <h3>Conocenos</h3>
-        <a href="contrataciones">Trabaja con nosotros</a>
-        <a href="contrataciones">Sobre AlquilaCamper</a>
-        <a href="contrataciones">Compromiso y valores</a>
+        <h3>Conócenos:</h3>
+        <a href="contrataciones">Trabaja con nosotros</a><br>
+        <a href="contrataciones">Sobre AlquilaCamper</a><br>
       </div>
-    </div>
-      <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16238.62154085484!2d-3.603128058983176!3d40.33557476956056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd423b5276b84bc5%3A0x483c4858a47b6169!2sCarr.%20Ca%C3%B1ada%20Real%2C%2028051%20Madrid!5e0!3m2!1ses!2ses!4v1634626078850!5m2!1ses!2ses" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <div id="mapa">
+        <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16238.62154085484!2d-3.603128058983176!3d40.33557476956056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd423b5276b84bc5%3A0x483c4858a47b6169!2sCarr.%20Ca%C3%B1ada%20Real%2C%2028051%20Madrid!5e0!3m2!1ses!2ses!4v1634626078850!5m2!1ses!2ses" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
     </div>
   </body>
 </html>
