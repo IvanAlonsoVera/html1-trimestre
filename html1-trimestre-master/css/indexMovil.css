@@ -1,0 +1,71 @@
+/* En este css esta metido todo lo relacionado con el index y los dos menus que tienen transparencia*/
+/* Aqui estan los dos menus de index.html y de conocenos.html*/
+ul {
+  opacity: 50%;
+}
+
+li {
+  float: none;
+}
+li a {
+    padding: 1px 40%;
+}
+/* Aqui esta todo el css relacionado con el selector del index*/
+body {
+  width: 100%;
+  margin: 0px;
+}
+#menu{
+  margin: 1em;
+  width: 92%;
+}
+
+#selector{
+  height: 60%;
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 20px;
+  top: 16em;
+}
+select{
+  width: 20em;
+  height: 5em;
+}
+option{
+  width: 2em;
+  height: 5em;
+}
+#personas{
+  float: inherit;
+  margin:10px;
+  margin-left: 2em;
+  margin-top: 1em;
+}
+#tipocamper{
+  float: inherit;
+  margin-left: 2em;
+  margin-top: 1em;
+}
+#fecha{
+  float: inherit;
+  margin-left: 4em;
+}
+#fecha input{
+  margin: 0.5em;
+  height: 5em;
+}
+#buscar{
+  position:none;
+  float: inherit;
+  left: 1em;
+  top: 82%;
+  width: 90%;
+  height: 4em;
+}
+#formulario{
+  display:inherit;
+  flex-direction:none;
+  justify-content: none;
+  align-items: none;
+
+}

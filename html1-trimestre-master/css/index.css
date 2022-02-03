@@ -1,0 +1,87 @@
+/* En este css esta metido todo lo relacionado con el index y los dos menus que tienen transparencia*/
+/* Aqui estan los dos menus de index.html y de conocenos.html*/
+@import url('http://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+ul {
+  border-radius: 10px;
+  opacity: 50%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #71D617;
+}
+
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 190px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #57763B;
+}
+/* Aqui esta todo el css relacionado con el selector del index*/
+body {
+  background-image: url("../imagenes/fondoselector.jpg");
+  background-repeat: no-repeat;
+}
+#menu{
+  float: left;
+  margin: 0px;
+  width: 100%;
+}
+
+#selector{
+  background-color: #DCFFBE;
+  height: 20%;
+  width: 45%;
+  margin-left: 27%;
+  border-radius: 20px;
+  position:absolute;
+  top: 40%;
+  padding: 1%;
+}
+select{
+  width: 18em;
+  height: 5em;
+}
+option{
+  width: 20em;
+  height: 5em;
+}
+#personas{
+  float: left;
+  margin:1em;
+  font-family: 'Comfortaa';
+  text-align: center;
+}
+#tipocamper{
+  float: left;
+  font-family: 'Comfortaa';
+  text-align: center;
+}
+#fecha{
+  float: left;
+  font-family: 'Comfortaa';
+}
+#busca{
+  position:absolute;
+  left: 10%;
+  top:60%;
+  background-color:#71D617;
+  border-radius: 10px;
+  width: 80%;
+  height: 4em;
+}
+#formulario{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
